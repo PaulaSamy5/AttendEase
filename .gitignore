@@ -1,0 +1,91 @@
+# ─── Secrets & Environment ────────────────────────────────────────────────────
+.env
+.env.local
+.env.production
+.env.staging
+secrets.py
+# Keep .env.example tracked (safe placeholder template)
+
+# ─── Database ─────────────────────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+wheels/
+*.whl
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ─── Virtual Environments ─────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+virtualenv/
+.virtualenv/
+
+# ─── Uploads & User Data ──────────────────────────────────────────────────────
+uploads/
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
+stderr.log
+bp_funcs.log
+
+# ─── Test & Scratch Files ─────────────────────────────────────────────────────
+test_fpdf.py
+test_fpdf_arabic.py
+out_export.txt
+update_db.py
+
+# ─── Backup Directories ───────────────────────────────────────────────────────
+frontend_backup/
+frontend_simple/
+ui_backup/
+recovery_backups/
+
+# ─── IDE & Editor ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# ─── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ─── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ─── Flask / Werkzeug ─────────────────────────────────────────────────────────
+instance/
+.webassets-cache
+
+# ─── Coverage / Testing ───────────────────────────────────────────────────────
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# ─── Temporary files ──────────────────────────────────────────────────────────
+*.tmp
+*.bak
+*.orig
